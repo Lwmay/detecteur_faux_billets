@@ -24,10 +24,14 @@ Suivant le cahier des charges, on mets en concurence 2 méthodes de prédiction 
 - une régression logistique classique
 - un k-means (utilisant les centroîdes)
 
-j'ai réalisé une 
+J'ai en premier lieu réalisé une analyse descriptive des données qui a mis en évidence la présence de données manquantes concernant la variable "margin_low".
+Gràce à une matrice de corrélation, j'ai sélectionné des variables corrélées avec "margin_low" pour réaliser une régression linéaire pour prédire et compléter ces valaurs manquantes.
 
-### Contenu du repository
+Pour la mise en place des algorithmes de prédiction, j'ai réaliser un échantionnage des données :
+- 80% pour le traning test
+- 20% pour le testing test
 
+> Aprés avoir réaliser les test sur les différentes méthode de prédiction, j'ai choisi la régression logisitque classique qui présente le meilleur score de précision pour le programme de détection.
 
 
 *Ce projet a été réalisé dans le cadre de la formation [Data Analyst](https://openclassrooms.com/fr/paths/65-data-analyst), d'OpenClassrooms.*
