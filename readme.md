@@ -33,5 +33,11 @@ Pour la mise en place des algorithmes de prédiction, j'ai réaliser un échanti
 
 > Aprés avoir réaliser les test sur les différentes méthode de prédiction, j'ai choisi la régression logisitque classique qui présente le meilleur score de précision pour le programme de détection.
 
+## Compétences mises en oeuvre
+
+- Réaliser une analyse prédictive
+- Opérer des classifications automatiques pour partitionner les données
+- Réaliser une régression logistique
+- Réaliser une régression linéaire
 
 *Ce projet a été réalisé dans le cadre de la formation [Data Analyst](https://openclassrooms.com/fr/paths/65-data-analyst), d'OpenClassrooms.*
